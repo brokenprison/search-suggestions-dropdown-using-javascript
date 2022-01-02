@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+}
+body{
+    background: rgb(248, 248, 248);
+}
+main{
+    max-width: 600px;
+    margin: auto;
+    background: #ffffff;
+    padding:10px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+main p{
+    text-align:center;
+    margin:20px 0px;
+    font-size: 30px;
+    color:#444444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+main .form{
+    display: flex;
+    background: red;
+}
+main button{
+    border: none;
+    padding:0px 25px;
+    background: #17c071;
+}
+main input{
+    padding:12px;
+    border: none;
+    outline: none;
+    display: flex;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color:#161616;
+    background: #fcfcfc;
+    border:1px solid #dadada;
+    border-radius: 0px;
+    width:100%;
+}
+.sugbox{
+    box-shadow: 0px 5px 5px rgb(212, 212, 212);
+    overflow: hidden;
+}
+.suggest{
+    color:#000000;
+    border-bottom:0px solid #3170af;
+    padding:12px 10px;
+    font-size: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background: #fff;
+    cursor: pointer;
+    transition: 50ms;
+}
+.suggest:hover{
+    background: #f1f1f1;
+}
+.suggest b{
+    color:#111111;
+}
+.suggest span{
+    color:rgb(117, 116, 116);
+}
